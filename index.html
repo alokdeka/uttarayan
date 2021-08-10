@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <!-- Slick slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Uttarayan</title>
+</head>
+
+<body>
+    <!-- Header logo -->
+    <!-- <div class="container py-2">
+        <img src="img/header-logo.png" alt="" width="120" />
+    </div> -->
+
+    <!-- RERA image div -->
+    <!-- <div class="rera_img_div">
+        <img src="img/rera.png" alt="" />
+    </div> -->
+
+    <!-- Slider -->
+    <div class="hompage_slider">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/banner/banner2.jpg" class="d-block w-100" alt="banner" />
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner/banner3.jpg" class="d-block w-100" alt="banner" />
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="enquiry_form_div">
+            <div class="p-4 child-enquiry-form">
+                <div class="row">
+                    <div class="col-md-7 d-flex justify-content-center align-items-center">
+                        <h1 class="text-uppercase fw-bolder text-white">
+                            Book free consultation
+                        </h1>
+                    </div>
+                    <div class="col-md-4 p-4">
+                        <form action="">
+                            <div class="row g-2">
+                                <div class="col-md">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="name" placeholder="Enter name" />
+                                        <label for="floatingInput">Full Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="phone" placeholder="Phone number" />
+                                        <label for="phone">Phone Number</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" />
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="remarks"
+                                    style="height: 100px"></textarea>
+                                <label for="remarks">Remarks</label>
+                            </div>
+                            <button type="submit" class="btn btn-dark form-control border-0">
+                                Submit
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- header -->
+        <div class="header">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-6">
+                        <a class="navbar-brand" href="#">
+                            <img class="ms-5" src="img/header-logo.png" alt="" width="120">
+                        </a>
+                    </div>
+                    <div class="col-6 text-end">
+                        <img src="img/rera.png" alt="" width="70" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+    </div>
+
+    <div class="container my-5">
+        <div class="col-md-12 d-sm-flex justify-content-evenly">
+            <div class="col-sm-3 small-boxes mb-3">
+                <p class="text-uppercase text-center mt-3">
+                    <i class="fas fa-american-sign-language-interpreting"></i> wide
+                    range of properties
+                </p>
+            </div>
+            <div class="col-sm-3 small-boxes mb-3">
+                <p class="text-uppercase text-center mt-3">
+                    <i class="fas fa-user-friends"></i>15+ agents available
+                </p>
+            </div>
+            <div class="col-sm-3 small-boxes mb-3">
+                <p class="text-uppercase text-center mt-3">
+                    <i class="fas fa-tags"></i> best deals guaranteed
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="
+          col-sm-11
+          mx-auto
+          d-flex
+          justify-content-center
+          align-items-center
+        ">
+            <img src="img/2004.PNG" alt="" style="width: 100%" />
+        </div>
+        <div class="col-sm-11 mx-auto">
+            <p class="fs-2 heading_line_height fw-bold text-justify">
+                16 <span class="fw-light"> YEARS OF EXPERIENCE </span> IN REAL ESTATE
+                DEVELOPER EXECUTION OF RESIDENTIAL& COMMERCIAL PROJECTS
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col-md-11 mx-auto">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/center-img.PNG" alt="" style="width: 100%" />
+                </div>
+                <div class="col-sm-6 bg-light p-md-5">
+                    <p class="fs-2 heading_line_height fw-bold">
+                        WE OFFER THE HIGHEST LEVEL OF EXPERTISE, SERVICE, AND INTEGRITY.
+                    </p>
+
+                    <p>
+                        Uttarayan Group is one of the well-known and favored brands when
+                        it comes to Real-Estate Division in Guwahati. To sum it up in
+                        short here’s why
+                    </p>
+
+                    <p>
+                        <span class="fw-bold">Build Quality:</span> We build Flats with
+                        only the ablest construction workers combined with the best
+                        materials and professionals to oversee work. It ensures that you
+                        get the best quality for your home to withstand any damage.
+                    </p>
+
+                    <p>
+                        <span class="fw-bold">Distinct Styling:</span> We understand that
+                        Home is the place of calm and pride. We built the best of flats in
+                        the most current and unique styling in convenient city locations.
+                        We make sure you stay safe in an attractive surrounding.
+                    </p>
+
+                    <p>
+                        <span class="fw-bold">Essential Amenities:</span> We furnish our
+                        homes with all the Essential Amenities for a comfortable living.
+                        From Kitchen Essentials to Parking Facilities, we do as much as
+                        possible to keep our residents well-equipped.
+                    </p>
+
+                    <p>
+                        <span class="fw-bold">Room for Improvement:</span> All Uttarayan
+                        Flats are big enough for personal modifications. We understand
+                        that if you have a flare for modification to give the place a more
+                        personal touch, you have all the space to do so.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Latest projects -->
+    <div class="container my-5">
+        <div class="col-md-11 mx-auto">
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="text-uppercase fs-2 heading_line_height fw-bold">
+                        LATEST PROJECTS
+                    </p>
+                    <p>
+                        In 2008 the company started the ambitious project Uttarayan Greens
+                        and today the project is complete and the flats are ready for
+                        possession. Uttarayan Greens can be counted amongst the finest
+                        real estate projects in Guwahati. Simultaneously the company
+                        started another project Uttarayan Heights and that project also
+                        stands completed at this moment.
+                    </p>
+
+                    <button class="btn btn-info text-white fw-bold shadow mb-5" data-bs-toggle="modal"
+                        data-bs-target="#contactModal">
+                        CONTACT US
+                    </button>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="row slider">
+                        <div class="col-md-6 latest_projects_block">
+                            <img src="img/latest_projects/ville.jpg" alt="">
+                            <p><span class="fs-2 fw-bolder text-uppercase heading_line_height">Uttarayan <br>
+                                    Ville</span><br>
+                                <span class="text-uppercase">209 FLATS (2 & 3BHK) IS OPEN FOR BOOKING</span></p>
+                        </div>
+                        <div class="col-md-6 latest_projects_block">
+                            <img src="img/latest_projects/shreejoni.jpg" alt="">
+                            <p> <span class="fs-2 fw-bolder text-uppercase heading_line_height">
+                                    Uttarayan <br> Shreejoni
+                                </span> <br> <span class="text-uppercase">3 BHK flats & penthouse for sale near NH 37,
+                                    Guwahati, Assam</span>
+                            </p>
+                        </div>
+                        <div class="col-md-6 latest_projects_block">
+                            <img src="img/latest_projects/dwarka.jpg" alt="">
+                            <p> <span class="fs-2 fw-bolder text-uppercase heading_line_height">
+                                    Uttarayan <br> Dwarka
+                                </span> <br> <span class="text-uppercase"> 3 BHK flats & Commercial complex for sale at
+                                    GS Road, Guwahati,
+                                    Assam</span> </p>
+                        </div>
+                        <div class="col-md-6 latest_projects_block">
+                            <img src="img/latest_projects/pride.jpg" alt="">
+                            <p> <span class="fs-2 fw-bolder text-uppercase heading_line_height">
+                                    Uttarayan <br> Pride
+                                </span><br> <span class="text-uppercase">3 BHK flats ,Dakhingaon Road, Kahilipara,
+                                    Guwahati, Assam</span></p>
+                        </div>
+                        <div class="col-md-6 latest_projects_block">
+                            <img src="img/latest_projects/empire.jpg" alt="">
+                            <p> <span class="fs-2 fw-bolder text-uppercase heading_line_height">
+                                    Uttarayan <br> Empire
+                                </span> <br> <span class="text-uppercase">UTTARAYAN EMPIRE PROJECT HAVING 209 FLATS (2 &
+                                    3BHK) IS OPEN FOR
+                                    BOOKING</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HOUSE AMENITIES -->
+    <div class="container">
+        <p class="text-center fs-2 heading_line_height fw-bold">
+            HOUSE AMENITIES
+        </p>
+        <div class="col-md-11 mx-auto">
+            <div class="row amenities d-flex justify-content-center">
+                <a class="col-md-2 col-6 text-center" data-bs-toggle="modal" data-bs-target="#amenities1">
+                    <img src="img/amenities/Active Lifestyle.svg" alt="">
+                    <p>Exclusive Gym/Active Lifestyle</p>
+                    <!-- <img src="img/smart-home.PNG" alt="" /> -->
+                </a>
+                <a class="col-md-2 col-6 text-center" data-bs-toggle="modal" data-bs-target="#amenities2">
+                    <img src="img/amenities/Swimming Pool and Party Area.svg" alt="">
+                    <p>Swimming Pool and Party Area</p>
+                    <!-- <img src="img/swimming-pool.PNG" alt="" /> -->
+                </a>
+                <a class="col-md-2 col-6 text-center" data-bs-toggle="modal" data-bs-target="#amenities3">
+                    <img src="img/amenities/Landscape Garden Area.svg" alt="">
+                    <p>Landscape Garden Area</p>
+                    <!-- <img src="img/parking.PNG" alt="" style="border: 1px solid black" /> -->
+                </a>
+                <a class="col-md-2 col-6 text-center" data-bs-toggle="modal" data-bs-target="#amenities4">
+                    <img src="img/amenities/Kid Toddlers Park.svg" alt="">
+                    <p>Kid Toddlers Park</p>
+                    <!-- <img src="img/shops-n-cafes.PNG" alt="" /> -->
+                </a>
+                <a class="col-md-2 col-6 text-center" data-bs-toggle="modal" data-bs-target="#amenities5">
+                    <img src="img/amenities/Earthquake Resisting.svg" alt="">
+                    <p>Earthquake Resisting</p>
+                    <!-- <img src="img/sports-club.PNG" alt="" /> -->
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Parking -->
+    <div class="container my-5">
+        <div class="col-md-11 mx-auto">
+            <div class="row">
+                <div class="
+              col-md-6
+              p-5
+              bg-light
+              d-flex
+              justify-content-center
+              align-items-center
+            ">
+                    <div>
+                        <p class="fs-2 heading_line_height fw-bold">PARKING</p>
+                        <p>
+                            This is one of the most important criteria in the real estate
+                            business, and we understand that you need your designated
+                            parking spot. We offer all types of parking: temporary, garage,
+                            lot, underground.
+                        </p>
+                        <button class="btn btn-dark fw-bold shadow">GET QUOTE</button>
+                    </div>
+                </div>
+
+                <div class="col-md-6 px-md-5">
+                    <img src="img/parking-center.PNG" alt="" style="width: 100%" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video -->
+
+    <div class="container my-5">
+        <div class="col-md-11 mx-auto">
+            <a class="video" data-fancybox href="https://youtu.be/v53nmaRDIZM?autoplay=1" data-fancybox-type="iframe">
+                <img src="img/video.PNG" alt="" style="width: 100%" />
+            </a>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="container my-5">
+        <div class="col-md-11 mx-auto">
+            <p class="fs-2 heading_line_height fw-bold mt-5">
+                TESTIMONIALS <br />
+                COMMENTS FROM OUR HAPPY
+            </p>
+            <div class="row slider">
+                <div class="testimonial_block col-md-6">
+                    <img src="img/quote.PNG" alt="" />
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/user.PNG" alt="" />
+                        </div>
+                        <div class="col-md-8">
+                            <span class="fw-bolder">RICK NELSON</span>
+                            <p>CEO, Company</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial_block col-md-6">
+                    <img src="img/quote.PNG" alt="" />
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/user.PNG" alt="" />
+                        </div>
+                        <div class="col-md-8">
+                            <span class="fw-bolder">RICK NELSON</span>
+                            <p>CEO, Company</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial_block col-md-6">
+                    <img src="img/quote.PNG" alt="" />
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/user.PNG" alt="" />
+                        </div>
+                        <div class="col-md-8">
+                            <span class="fw-bolder">RICK NELSON</span>
+                            <p>CEO, Company</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- After testimonial -->
+    <div class="col-md-10 mx-auto">
+        <img src="img/after-testimonial.PNG" alt="" style="width: 100%" />
+    </div>
+
+    <!-- About us -->
+    <div class="container my-5">
+        <div class="col-md-11 mx-auto">
+            <img src="img/header-logo.png" alt="" />
+            <p>
+                Started in the year 2004-05 by two visionaries Mr. Deepjyoti Baruah
+                and Mr. Amarchand Kalani, Uttarayan Developers (P) Ltd. since then has
+                never looked back.
+            </p>
+            <p>
+                In the year 2005. Uttarayan completed its first project, a warehouse
+                of 1 lacs 50 thousand sq fts at Beharbari, Guwahati . After that, both
+                Mr. Baruah and Mr. Kalani realized the need to form a company in order
+                to streamline the work load.
+            </p>
+        </div>
+    </div>
+
+    <!-- Follow social -->
+    <div class="container">
+        <p class="text-center">Keep Following us</p>
+        <div class="social_icons">
+            <div class="facebook">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+            <div class="linked_in">
+                <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+            <div class="twitter">
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <div class="google">
+                <a href="#">
+                    <i class="fab fa-google-plus-g"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid footer_div mt-5">
+        <img src="img/footer-img.png" alt="" />
+        <p class="text-center">
+            © 2021 | Uttarayan Developers (P) Ltd. | Member Assam Real Estate
+            Infrastructure Developers Association (ARIEDA)
+        </p>
+    </div>
+
+
+    <!-- MODALS -->
+
+    <!-- Contact modal -->
+    <div class="modal fade" id="contactModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Contact us</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="name" placeholder="Name">
+                                    <label for="name">Name</label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="phone" placeholder="Phone">
+                                    <label for="phone">Phone</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="comments"
+                                style="height: 100px"></textarea>
+                            <label for="comments">Comments</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Amenities 1 -->
+    <div class="modal fade amenities-modal" id="amenities1" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Exclusive Gym/Active Lifestyle</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    It is a long established fact that a reader will be distracted by the readable content of a page
+                    when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using 'Content here, content here', making it look like
+                    readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                    default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
+                    infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose
+                    (injected humour and the like).
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Amenities 2 -->
+    <div class="modal fade amenities-modal" id="amenities2" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Swimming Pool and Party Area</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    It is a long established fact that a reader will be distracted by the readable content of a page
+                    when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using 'Content here, content here', making it look like
+                    readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                    default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
+                    infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose
+                    (injected humour and the like).
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Amenities 3 -->
+    <div class="modal fade amenities-modal" id="amenities3" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Landscape Garden Area</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    It is a long established fact that a reader will be distracted by the readable content of a page
+                    when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using 'Content here, content here', making it look like
+                    readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                    default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
+                    infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose
+                    (injected humour and the like).
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Amenities 4 -->
+    <div class="modal fade amenities-modal" id="amenities4" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Kid Toddlers Park</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    It is a long established fact that a reader will be distracted by the readable content of a page
+                    when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using 'Content here, content here', making it look like
+                    readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                    default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
+                    infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose
+                    (injected humour and the like).
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Amenities 5 -->
+    <div class="modal fade amenities-modal" id="amenities5" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Earthquake Resisting</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    It is a long established fact that a reader will be distracted by the readable content of a page
+                    when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using 'Content here, content here', making it look like
+                    readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                    default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
+                    infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose
+                    (injected humour and the like).
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <!-- Slick slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Fancybox -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+    <script>
+        $(".slider").slick({
+            dots: true,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            arrows: true,
+            responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true,
+                    },
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                    },
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    },
+                },
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ],
+        });
+    </script>
+</body>
+
+</html>
