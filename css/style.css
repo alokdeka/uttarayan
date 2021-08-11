@@ -311,9 +311,9 @@ body {
         width: 50px;
     }
 
-    .header img{
-        /* width: 60px; */
-    }
+    /* .header img{
+        width: 60px;
+    } */
     
     .hompage_slider .carousel-item img {
         object-fit: cover;
@@ -352,9 +352,9 @@ body {
         color: #111;
     }
 
-    .rera_img_div img {
-        /* width: 70px; */
-    }
+    /* .rera_img_div img {
+        width: 70px;
+    } */
 
     .enquiry_form_div .child-enquiry-form{
         margin-top: 0px;
