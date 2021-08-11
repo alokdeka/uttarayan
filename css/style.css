@@ -29,6 +29,10 @@ body {
     overflow-x: hidden;
 }
 
+.carousel-caption {
+    bottom: 14rem;
+}
+
 .header{
     position: absolute;
     width: 90%;
@@ -77,17 +81,23 @@ body {
 .enquiry_form_div .child-enquiry-form{
     margin-top: 120px;
 }
-.enquiry_form_div,
+
+/* .enquiry_form_div,
 .enquiry_form_div input,
 .enquiry_form_div textarea {
     background: rgb(1, 1, 1, 0.3);
     border-radius: 0;
+    color: #fff;
+} */
+
+.enquiry_form_div h1{
     color: #fff;
 }
 
 .enquiry_form_div button {
     height: 50px;
     border-radius: 0;
+    background: #2591CF;
 }
 
 /* Enquiry end */
@@ -286,6 +296,10 @@ body {
         top: 0;
         height: auto;
     }
+    
+.enquiry_form_div h1{
+    color: #111;
+}
 
     .rera_img_div img {
         width: 50px;
@@ -311,6 +325,10 @@ body {
         position: unset;
         top: 0;
         height: auto;
+    } 
+
+    .enquiry_form_div h1{
+        color: #111;
     }
 }
 
@@ -322,6 +340,10 @@ body {
         top: 0;
         width: 100%;
         height: auto;
+    }
+        
+    .enquiry_form_div h1{
+        color: #111;
     }
 
     .rera_img_div img {
@@ -345,6 +367,10 @@ body {
         top: 0;
         width: 100%;
         height: auto;
+    }
+        
+    .enquiry_form_div h1{
+        color: #111;
     }
 
     .enquiry_form_div .child-enquiry-form{
