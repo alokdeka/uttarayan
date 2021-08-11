@@ -21,29 +21,17 @@
         integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
     <!-- Fancybox -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animate.css">
 
     <title>Uttarayan</title>
 </head>
 
 <body>
-    <!-- Header logo -->
-    <!-- <div class="container py-2">
-        <img src="img/header-logo.png" alt="" width="120" />
-    </div> -->
-
-    <!-- RERA image div -->
-    <!-- <div class="rera_img_div">
-        <img src="img/rera.png" alt="" />
-    </div> -->
-
     <!-- Slider -->
     <div class="hompage_slider">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -115,7 +103,9 @@
             </button>
         </div>
 
-        <div class="enquiry_form_div animate__animated animate__fadeInDown">
+
+        <!-- Enquiry form div -->
+        <div class="enquiry_form_div wow slideInLeft">
             <div class="p-4 child-enquiry-form">
                 <div class="row">
                     <div class="col-md-7 d-flex pl-100 flex-column justify-content-center align-items-center d-only-lg">
@@ -128,7 +118,7 @@
                             boundless conveniences.
                             Book your dream home here and unveil the comfort around you!</p>
                     </div>
-                    <div class="col-md-4 mx-auto p-md-4 rounded" id="enquiry_form" style="background: #fff;">
+                    <div class="col-md-4 mx-auto p-md-4 rounded" id="enquiry-form" style="background: #fff;">
                         <h4 class="enquiry_form_heading">Enquiry</h4>
                         <p class="enquiry_form_heading" style="font-size: 12px;">Please provide the following to help us
                             process your request:
@@ -172,7 +162,7 @@
 
 
         <!-- header logos -->
-        <div class="header animate__animated animate__fadeInDown">
+        <div class="header">
             <div class="col-12">
                 <div class="row">
                     <div class="col-6">
@@ -189,7 +179,7 @@
         <!--  -->
     </div>
 
-    <div class="container my-5 animate__animated animate__fadeInDown">
+    <div class="container my-5">
         <div class="col-md-11 mx-auto d-sm-flex justify-content-between">
             <div class="col-sm-3 small-boxes mb-3">
                 <p class="text-uppercase text-center mt-3">
@@ -210,7 +200,7 @@
         </div>
     </div>
 
-    <div class="container animate__animated animate__fadeInDown">
+    <div class="container">
         <div class="
           col-sm-11
           mx-auto
@@ -228,7 +218,7 @@
         </div>
     </div>
 
-    <div class="container animate__animated animate__fadeInDown">
+    <div class="container">
         <div class="col-md-11 mx-auto">
             <div class="row">
                 <div class="col-md-6">
@@ -278,7 +268,7 @@
     </div>
 
     <!-- Latest projects -->
-    <div class="container my-5 animate__animated animate__fadeInDown">
+    <div class="container my-5">
         <div class="col-md-11 mx-auto">
             <div class="row">
                 <div class="col-md-4">
@@ -347,7 +337,7 @@
 
     <!-- HOUSE AMENITIES -->
     <!-- Amenities Tablinks -->
-    <div class="container animate__animated animate__fadeInDown">
+    <div class="container">
         <p class="text-center fs-2 heading_line_height fw-bold text-uppercase">
             Spotlight Feature
         </p>
@@ -537,7 +527,7 @@
 
     <!-- Video -->
 
-    <div class="container my-5 animate__animated animate__fadeInDown">
+    <div class="container my-5">
         <div class="col-md-11 mx-auto">
             <a class="video" data-fancybox href="https://youtu.be/v53nmaRDIZM?autoplay=1" data-fancybox-type="iframe">
                 <img src="img/video.PNG" alt="" style="width: 100%" />
@@ -546,7 +536,7 @@
     </div>
 
     <!-- Testimonials -->
-    <div class="container my-5 animate__animated animate__fadeInDown">
+    <div class="container my-5">
         <div class="col-md-11 mx-auto">
             <p class="fs-2 heading_line_height fw-bold mt-5">
                 TESTIMONIALS <br />
@@ -593,14 +583,14 @@
     </div>
 
     <!-- After testimonial -->
-    <div class="col-md-10 mx-auto animate__animated animate__fadeInDown">
+    <div class="col-md-10 mx-auto">
         <img src="img/after-testimonial.PNG" alt="" style="width: 100%" />
     </div>
 
     <!-- About us -->
     <div class="container my-5">
         <div class="col-md-11 mx-auto">
-            <img src="img/header-logo.png" alt="" />
+            <img src="img/header-logo2.png" alt="" />
             <p>
                 Started in the year 2004-05 by two visionaries Mr. Deepjyoti Baruah
                 and Mr. Amarchand Kalani, Uttarayan Developers (P) Ltd. since then has
@@ -616,7 +606,7 @@
     </div>
 
     <!-- Follow social -->
-    <div class="container animate__animated animate__fadeInDown">
+    <div class="container">
         <p class="text-center">Keep Following us</p>
         <div class="social_icons">
             <div class="facebook">
@@ -643,7 +633,7 @@
     </div>
 
     <!-- Footer -->
-    <div class="container-fluid footer_div mt-5 animate__animated animate__fadeInDown">
+    <div class="container-fluid footer_div mt-5">
         <img src="img/footer-img.png" alt="" />
         <p class="text-center">
             © 2021 | Uttarayan Developers (P) Ltd. | Member Assam Real Estate
@@ -736,13 +726,27 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
             integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="js/wow.min.js"></script>
+        <script src="js/wow/wow.min.js"></script>
+        <script>
+            var wow = new WOW({
+                boxClass: 'wow', // animated element css class (default is wow)
+                animateClass: 'animated', // animation css class (default is animated)
+                offset: 0, // distance to the element when triggering the animation (default is 0)
+                mobile: true, // trigger animations on mobile devices (default is true)
+                live: true, // act on asynchronously loaded content (default is true)
+                callback: function (box) {
+                    // the callback is fired every time an animation is started
+                    // the argument that is passed in is the DOM node being animated
+                },
+                scrollContainer: null, // optional scroll container selector, otherwise use window,
+                resetAnimation: true, // reset animation on end (default is true)
+            });
+            wow.init();
+        </script>
 
         <!-- Center modal vertically -->
         <script>
             $(document).ready(function () {
-                new WOW().init();
-
                 /* Centering the modal vertically */
                 function alignModal() {
                     var modalDialog = $(this).find(".modal-dialog");
