@@ -98,7 +98,7 @@ body {
     background: #111;
     color: #fff;
     height: 100px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 10px;
 
     display: flex;
@@ -109,12 +109,13 @@ body {
 .small-boxes p {
     font-weight: 900;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .small-boxes .fas {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 /* Small boxes ends */
@@ -156,21 +157,46 @@ body {
 .amenities a{
     text-decoration: none;
     color: black;
-    transition: all 0.3s;
 }
 
 .amenities p{
     font-size: 13px;
 }
 
-.amenities a:hover{
-    cursor: pointer;
-    transform: scale(1.2);
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    padding: 12px;
+    background-color: #fff !important;
 }
 
-.amenities-modal .modal-content{
-    border-radius: 0;
+/* Style the buttons inside the tab */
+.tab a {
     border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab a:hover {
+    border: 1px solid;
+}
+
+/* Create an active/current tablink class */
+.tab a.active {
+    border: 1px solid;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
 }
 
 /* Latest project */
@@ -216,6 +242,7 @@ body {
     right: 0;
     width: 100%;
     z-index: 999999;
+    display: none;
 }
 
 .floating-div a{
@@ -270,6 +297,10 @@ body {
     
     .hompage_slider .carousel-item img {
         object-fit: cover;
+    }
+
+    .floating-div{
+        display: unset;
     }
 }
 

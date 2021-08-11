@@ -151,12 +151,12 @@
             </div>
             <div class="col-sm-3 small-boxes mb-3">
                 <p class="text-uppercase text-center mt-3">
-                    <i class="fas fa-user-friends"></i>15+ agents available
+                    <i class="fas fa-user-friends" style="font-size: 1.5rem;"></i>15+ agents available
                 </p>
             </div>
             <div class="col-sm-3 small-boxes mb-3">
                 <p class="text-uppercase text-center mt-3">
-                    <i class="fas fa-tags"></i> best deals guaranteed
+                    <i class="fas fa-tags" style="font-size: 1.5rem;"></i> best deals guaranteed
                 </p>
             </div>
         </div>
@@ -298,71 +298,194 @@
     </div>
 
     <!-- HOUSE AMENITIES -->
+    <!-- Amenities Tablinks -->
     <div class="container">
         <p class="text-center fs-2 heading_line_height fw-bold">
             HOUSE AMENITIES
         </p>
         <div class="col-md-11 mx-auto">
-            <div class="row amenities d-flex justify-content-center">
-                <a class="col-md-2 col-6 text-center" data-bs-toggle="modal" data-bs-target="#amenities1">
-                    <img src="img/amenities/Active Lifestyle.svg" alt="">
-                    <p>Exclusive Gym/Active Lifestyle</p>
-                    <!-- <img src="img/smart-home.PNG" alt="" /> -->
-                </a>
-                <a class="col-md-2 col-6 text-center" data-bs-toggle="modal" data-bs-target="#amenities2">
-                    <img src="img/amenities/Swimming Pool and Party Area.svg" alt="">
-                    <p>Swimming Pool and Party Area</p>
-                    <!-- <img src="img/swimming-pool.PNG" alt="" /> -->
-                </a>
-                <a class="col-md-2 col-6 text-center" data-bs-toggle="modal" data-bs-target="#amenities3">
-                    <img src="img/amenities/Landscape Garden Area.svg" alt="">
-                    <p>Landscape Garden Area</p>
-                    <!-- <img src="img/parking.PNG" alt="" style="border: 1px solid black" /> -->
-                </a>
-                <a class="col-md-2 col-6 text-center" data-bs-toggle="modal" data-bs-target="#amenities4">
-                    <img src="img/amenities/Kid Toddlers Park.svg" alt="">
-                    <p>Kid Toddlers Park</p>
-                    <!-- <img src="img/shops-n-cafes.PNG" alt="" /> -->
-                </a>
-                <a class="col-md-2 col-6 text-center" data-bs-toggle="modal" data-bs-target="#amenities5">
-                    <img src="img/amenities/Earthquake Resisting.svg" alt="">
-                    <p>Earthquake Resisting</p>
-                    <!-- <img src="img/sports-club.PNG" alt="" /> -->
-                </a>
+            <div class="tab">
+                <div class="row amenities d-flex justify-content-center">
+                    <a onclick="openAmenities(event, 'gym')" class="tablinks col-md-2 col-6 text-center">
+                        <img src="img/amenities/Active Lifestyle.svg" alt="">
+                        <p>Exclusive Gym/Active Lifestyle</p>
+                        <!-- <img src="img/smart-home.PNG" alt="" /> -->
+                    </a>
+                    <a onclick="openAmenities(event, 'pool')" class="tablinks col-md-2 col-6 text-center">
+                        <img src="img/amenities/Swimming Pool and Party Area.svg" alt="">
+                        <p>Swimming Pool and Party Area</p>
+                        <!-- <img src="img/swimming-pool.PNG" alt="" /> -->
+                    </a>
+                    <a onclick="openAmenities(event, 'garden')" class="tablinks col-md-2 col-6 text-center">
+                        <img src="img/amenities/Landscape Garden Area.svg" alt="">
+                        <p>Landscape Garden Area</p>
+                        <!-- <img src="img/parking.PNG" alt="" style="border: 1px solid black" /> -->
+                    </a>
+                    <a onclick="openAmenities(event, 'park')" class="tablinks col-md-2 col-6 text-center">
+                        <img src="img/amenities/Kid Toddlers Park.svg" alt="">
+                        <p>Kid Toddlers Park</p>
+                        <!-- <img src="img/shops-n-cafes.PNG" alt="" /> -->
+                    </a>
+                    <a onclick="openAmenities(event, 'earthquake')" class="tablinks col-md-2 col-6 text-center">
+                        <img src="img/amenities/Earthquake Resisting.svg" alt="">
+                        <p>Earthquake Resisting</p>
+                        <!-- <img src="img/sports-club.PNG" alt="" /> -->
+                    </a>
+                </div>
             </div>
-        </div>
-    </div>
 
-    <!-- Parking -->
-    <div class="container my-5">
-        <div class="col-md-11 mx-auto">
-            <div class="row">
-                <div class="
-              col-md-6
-              p-5
-              bg-light
-              d-flex
-              justify-content-center
-              align-items-center
-            ">
-                    <div>
-                        <p class="fs-2 heading_line_height fw-bold">PARKING</p>
-                        <p>
-                            This is one of the most important criteria in the real estate
-                            business, and we understand that you need your designated
-                            parking spot. We offer all types of parking: temporary, garage,
-                            lot, underground.
-                        </p>
-                        <button class="btn btn-dark fw-bold shadow">GET QUOTE</button>
+            <div class="Tabcontents mt-5">
+                <!-- Gym -->
+                <div id="gym" class="tabcontent">
+                    <div class="row">
+                        <div class="
+                      col-md-6
+                      p-5
+                      bg-light
+                      d-flex
+                      justify-content-center
+                      align-items-center
+                    ">
+                            <div>
+                                <p class="fs-2 heading_line_height fw-bold">EXCLUSIVE GYM/ ACTIVE LIFESTYLE</p>
+                                <p>
+                                    This is one of the most important criteria in the real estate
+                                    business, and we understand that you need your designated
+                                    parking spot. We offer all types of parking: temporary, garage,
+                                    lot, underground.
+                                </p>
+                                <button class="btn btn-dark fw-bold shadow">GET QUOTE</button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 px-md-5">
+                            <img src="img/parking-center.PNG" alt="" style="width: 100%" />
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-md-6 px-md-5">
-                    <img src="img/parking-center.PNG" alt="" style="width: 100%" />
+                <!-- Swimming pool -->
+                <div id="pool" class="tabcontent">
+                    <div class="row">
+                        <div class="
+                      col-md-6
+                      p-5
+                      bg-light
+                      d-flex
+                      justify-content-center
+                      align-items-center
+                    ">
+                            <div>
+                                <p class="fs-2 heading_line_height fw-bold">SWIMMING POOL AND PARTY AREA</p>
+                                <p>
+                                    This is one of the most important criteria in the real estate
+                                    business, and we understand that you need your designated
+                                    parking spot. We offer all types of parking: temporary, garage,
+                                    lot, underground.
+                                </p>
+                                <button class="btn btn-dark fw-bold shadow">GET QUOTE</button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 px-md-5">
+                            <img src="img/parking-center.PNG" alt="" style="width: 100%" />
+                        </div>
+                    </div>
                 </div>
+
+                <!-- Garden -->
+                <div id="garden" class="tabcontent">
+                    <div class="row">
+                        <div class="
+                      col-md-6
+                      p-5
+                      bg-light
+                      d-flex
+                      justify-content-center
+                      align-items-center
+                    ">
+                            <div>
+                                <p class="fs-2 heading_line_height fw-bold">LANDSCAPE GARDEN AREA</p>
+                                <p>
+                                    This is one of the most important criteria in the real estate
+                                    business, and we understand that you need your designated
+                                    parking spot. We offer all types of parking: temporary, garage,
+                                    lot, underground.
+                                </p>
+                                <button class="btn btn-dark fw-bold shadow">GET QUOTE</button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 px-md-5">
+                            <img src="img/parking-center.PNG" alt="" style="width: 100%" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Park -->
+                <div id="park" class="tabcontent">
+                    <div class="row">
+                        <div class="
+                      col-md-6
+                      p-5
+                      bg-light
+                      d-flex
+                      justify-content-center
+                      align-items-center
+                    ">
+                            <div>
+                                <p class="fs-2 heading_line_height fw-bold">KID TODDLERS PARK</p>
+                                <p>
+                                    This is one of the most important criteria in the real estate
+                                    business, and we understand that you need your designated
+                                    parking spot. We offer all types of parking: temporary, garage,
+                                    lot, underground.
+                                </p>
+                                <button class="btn btn-dark fw-bold shadow">GET QUOTE</button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 px-md-5">
+                            <img src="img/parking-center.PNG" alt="" style="width: 100%" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Earthquake -->
+                <div id="earthquake" class="tabcontent">
+                    <div class="row">
+                        <div class="
+                      col-md-6
+                      p-5
+                      bg-light
+                      d-flex
+                      justify-content-center
+                      align-items-center
+                    ">
+                            <div>
+                                <p class="fs-2 heading_line_height fw-bold">EARTHQUAKE RESISTING</p>
+                                <p>
+                                    This is one of the most important criteria in the real estate
+                                    business, and we understand that you need your designated
+                                    parking spot. We offer all types of parking: temporary, garage,
+                                    lot, underground.
+                                </p>
+                                <button class="btn btn-dark fw-bold shadow">GET QUOTE</button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 px-md-5">
+                            <img src="img/parking-center.PNG" alt="" style="width: 100%" />
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
+    <!-- Amenities end -->
+
+
 
     <!-- Video -->
 
@@ -554,131 +677,6 @@
         </div>
     </div>
 
-    <!-- Amenities 1 -->
-    <div class="modal fade amenities-modal" id="amenities1" data-bs-backdrop="static" data-bs-keyboard="false"
-        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Exclusive Gym/Active Lifestyle</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    It is a long established fact that a reader will be distracted by the readable content of a page
-                    when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                    distribution of letters, as opposed to using 'Content here, content here', making it look like
-                    readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                    default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
-                    infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose
-                    (injected humour and the like).
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Amenities 2 -->
-    <div class="modal fade amenities-modal" id="amenities2" data-bs-backdrop="static" data-bs-keyboard="false"
-        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Swimming Pool and Party Area</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    It is a long established fact that a reader will be distracted by the readable content of a page
-                    when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                    distribution of letters, as opposed to using 'Content here, content here', making it look like
-                    readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                    default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
-                    infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose
-                    (injected humour and the like).
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Amenities 3 -->
-    <div class="modal fade amenities-modal" id="amenities3" data-bs-backdrop="static" data-bs-keyboard="false"
-        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Landscape Garden Area</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    It is a long established fact that a reader will be distracted by the readable content of a page
-                    when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                    distribution of letters, as opposed to using 'Content here, content here', making it look like
-                    readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                    default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
-                    infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose
-                    (injected humour and the like).
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Amenities 4 -->
-    <div class="modal fade amenities-modal" id="amenities4" data-bs-backdrop="static" data-bs-keyboard="false"
-        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Kid Toddlers Park</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    It is a long established fact that a reader will be distracted by the readable content of a page
-                    when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                    distribution of letters, as opposed to using 'Content here, content here', making it look like
-                    readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                    default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
-                    infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose
-                    (injected humour and the like).
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Amenities 5 -->
-    <div class="modal fade amenities-modal" id="amenities5" data-bs-backdrop="static" data-bs-keyboard="false"
-        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Earthquake Resisting</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    It is a long established fact that a reader will be distracted by the readable content of a page
-                    when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                    distribution of letters, as opposed to using 'Content here, content here', making it look like
-                    readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                    default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
-                    infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose
-                    (injected humour and the like).
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
     <!-- Enquire now, Call now -->
     <div class="floating-div">
@@ -747,6 +745,22 @@
                 // instead of a settings object
             ],
         });
+    </script>
+
+    <script>
+        function openAmenities(evt, amenityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(amenityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
     </script>
 </body>
 
