@@ -96,39 +96,49 @@
             </button>
         </div>
 
-        <div class="enquiry_form_div" id="enquiry-form">
+        <div class="enquiry_form_div">
             <div class="p-4 child-enquiry-form">
                 <div class="row">
-                    <div class="col-md-7 d-flex justify-content-center align-items-center">
+                    <div class="col-md-7 d-flex flex-column justify-content-center align-items-center">
                         <h1 class="text-uppercase fw-bolder">
-                            Book free consultation
-                        </h1>
+                            A LIFESTYLE THAT KNOWS NO LIMITS
+                        </h1><br>
+                        <h3>Guwahati's No.1 Trusted Real Estate Developer with all RERA Registered Projects</h3><br>
+                        <p>2 BHK | 3 BHK | 4 BHK apartments with the utmost connectivity and boundless conveniences.
+                            Book your dream home here and unveil the comfort around you!</p>
                     </div>
-                    <div class="col-md-4 p-4 rounded" id="enquiry_form" style="background: #fff;">
+                    <div class="col-md-4 p-md-4 rounded" id="enquiry_form" style="background: #fff;">
+                        <p class="enquiry_form_heading">Please provide the following to help us process your request:
+                        </p>
                         <form>
                             <div class="mb-3">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Name"
+                                    required>
                             </div>
                             <div class="mb-3">
-                                <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email"
+                                    required>
                             </div>
                             <div class="mb-3">
                                 <input type="text" class="form-control" id="phone" name="phone"
-                                    placeholder="Phone number">
+                                    placeholder="Phone number" required>
                             </div>
                             <div class="mb-3">
-                                <select class="project-form-select form-control" aria-label="Select project">
-                                    <option selected disabled>Select project</option>
+                                <select class="project-form-select form-control" aria-label="Select project" required>
+                                    <option selected disabled>Select projects</option>
                                     <option value="ville">Uttarayan Ville</option>
-                                    <option value="greens">Uttarayan Greens</option>
-                                    <option value="heights">Uttarayan Heights</option>
+                                    <option value="empire">Uttarayan Empire</option>
+                                    <option value="shreejoni">Uttarayan Shreejoni</option>
+                                    <option value="dwarka">Uttarayan Dwarka</option>
+                                    <option value="pride">Uttarayan Pride</option>
+                                    <option value="other">Other Projects</option>
                                 </select>
                             </div>
                             <div class="mb-3">
-                                <textarea class="form-control" placeholder="Leave a comment here" id="message"
-                                    name="message" style="height: 100px"></textarea>
+                                <textarea class="form-control" placeholder="Any Queries" id="message" name="message"
+                                    style="height: 50px"></textarea required>
                             </div>
-                            <button type="submit" class="btn btn-dark form-control border-0 rounded">
+                            <button type="submit" class="btn btn-sm btn-dark form-control border-0 rounded">
                                 Submit
                             </button>
                         </form>
@@ -148,7 +158,7 @@
                         </a>
                     </div>
                     <div class="col-6 text-end">
-                        <img src="img/rera.png" alt="" width="100" />
+                        <img src="img/rera.png" alt="" width="90" />
                     </div>
                 </div>
             </div>
@@ -331,7 +341,7 @@
                         <p>Swimming Pool and Party Area</p>
                         <!-- <img src="img/swimming-pool.PNG" alt="" /> -->
                     </a>
-                    <a onclick="openAmenities(event, 'garden')" class="tablinks col-md-2 col-6 text-center">
+                    <a onclick="openAmenities(event, 'garden')" class="tablinks col-md-2 col-6 text-center active">
                         <img src="img/amenities/Landscape Garden Area.svg" alt="">
                         <p>Landscape Garden Area</p>
                         <!-- <img src="img/parking.PNG" alt="" style="border: 1px solid black" /> -->
@@ -409,7 +419,7 @@
                 </div>
 
                 <!-- Garden -->
-                <div id="garden" class="tabcontent">
+                <div id="garden" class="tabcontent" style="display: block;">
                     <div class="row">
                         <div class="
                       col-md-6
@@ -520,71 +530,41 @@
                 COMMENTS FROM OUR HAPPY
             </p>
             <div class="row slider">
+
+                <!-- Feedback 1 -->
                 <div class="testimonial_block col-md-6">
                     <img src="img/quote.PNG" alt="" />
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        As a customer of your premium venture, I am highly satisfied with your ongoing biggest project in North east, specially I would like to highlight your way of approaching to client by conducting different events, time to time update about the project and your commitment regarding completion in time. I would also like to thank entire Uttarayan Marketing team for their attitude and decent gesture towards the client. Hope to see true Nirvana very soon, good luck.
                     </p>
                     <div class="row">
                         <div class="col-md-3">
                             <img src="img/user.PNG" alt="" />
                         </div>
                         <div class="col-md-8">
-                            <span class="fw-bolder">RICK NELSON</span>
-                            <p>CEO, Company</p>
+                            <span class="fw-bolder">Dr. Kalyan Kumar Nath</span>
+                            <!-- <p>CEO, Company</p> -->
                         </div>
                     </div>
                 </div>
 
+                <!-- Feedback 2 -->
                 <div class="testimonial_block col-md-6">
                     <img src="img/quote.PNG" alt="" />
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        I am pleased with the progress and quality of work as committed. Hope, the possession of the flats to the owner shall be handed over in time by completing all the facilities to the satisfaction of the owners.
                     </p>
                     <div class="row">
                         <div class="col-md-3">
                             <img src="img/user.PNG" alt="" />
                         </div>
                         <div class="col-md-8">
-                            <span class="fw-bolder">RICK NELSON</span>
+                            <span class="fw-bolder">Mr. Kumud Chandra Barman</span>
                             <p>CEO, Company</p>
                         </div>
                     </div>
                 </div>
-
-                <div class="testimonial_block col-md-6">
-                    <img src="img/quote.PNG" alt="" />
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img src="img/user.PNG" alt="" />
-                        </div>
-                        <div class="col-md-8">
-                            <span class="fw-bolder">RICK NELSON</span>
-                            <p>CEO, Company</p>
-                        </div>
-                    </div>
-                </div>
+                <!--  -->
             </div>
         </div>
     </div>
@@ -676,128 +656,131 @@
                             <select class="project-form-select form-control" aria-label="Select project">
                                 <option selected disabled>Select project</option>
                                 <option value="ville">Uttarayan Ville</option>
-                                <option value="greens">Uttarayan Greens</option>
-                                <option value="heights">Uttarayan Heights</option>
+                                <option value="empire">Uttarayan Empire</option>
+                                <option value="shreejoni">Uttarayan Shreejoni</option>
+                                <option value="dwarka">Uttarayan Dwarka</option>
+                                <option value="pride">Uttarayan Pride</option>
+                                <option value="other">Other Projects</option>
                             </select>
                         </div>
                         <div class="mb-3">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="message"
+                            <textarea class="form-control" placeholder="Any Queries" id="message"
                                 name="message" style="height: 100px"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-dark form-control border-0 rounded">
-                            Submit
-                        </button>
-                    </form>
-                </div>
+                            </div>
+                            <button type="submit" class="btn btn-dark form-control border-0 rounded">
+                                Submit
+                            </button>
+                        </form>
+                    </div>
 
+                </div>
             </div>
         </div>
-    </div>
 
 
-    <!-- Enquire now, Call now -->
-    <div class="floating-div">
-        <div class="col-12">
-            <div class="row">
-                <div class="col-6 floating-div-child text-center"><a href="#enquiry-form"><i
-                            class="fas fa-info-circle me-2"></i>Enquire Now</a>
+        <!-- Enquire now, Call now -->
+        <div class="floating-div">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-6 floating-div-child text-center"><a href="#enquiry-form"><i
+                                class="fas fa-info-circle me-2"></i>Enquire Now</a>
+                    </div>
+                    <div class="col-6 floating-div-child text-center"><a href="tel:9854040005"> <i
+                                class="fas fa-phone-alt me-2"></i>Call Now</a></div>
                 </div>
-                <div class="col-6 floating-div-child text-center"><a href="tel:9854040005"> <i
-                            class="fas fa-phone-alt me-2"></i>Call Now</a></div>
             </div>
         </div>
-    </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
-    <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <!-- Optional JavaScript; choose one of the two! -->
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
 
-    <!-- Slick slider -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
-        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- Slick slider -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+            integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <!-- Fancybox -->
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+        <!-- Fancybox -->
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
-    <!-- Center modal vertically -->
-    <script>
-        $(document).ready(function () {
+        <!-- Center modal vertically -->
+        <script>
+            $(document).ready(function () {
 
-            /* Centering the modal vertically */
-            function alignModal() {
-                var modalDialog = $(this).find(".modal-dialog");
-                modalDialog.css("margin-top", Math.max(0,
-                    ($(window).height() - modalDialog.height()) / 2));
-            }
-            $(".modal").on("shown.bs.modal", alignModal);
+                /* Centering the modal vertically */
+                function alignModal() {
+                    var modalDialog = $(this).find(".modal-dialog");
+                    modalDialog.css("margin-top", Math.max(0,
+                        ($(window).height() - modalDialog.height()) / 2));
+                }
+                $(".modal").on("shown.bs.modal", alignModal);
 
-            /* Resizing the modal according the screen size */
-            $(window).on("resize", function () {
-                $(".modal:visible").each(alignModal);
+                /* Resizing the modal according the screen size */
+                $(window).on("resize", function () {
+                    $(".modal:visible").each(alignModal);
+                });
             });
-        });
-    </script>
+        </script>
 
-    <script>
-        $(".slider").slick({
-            dots: true,
-            infinite: false,
-            speed: 300,
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            arrows: true,
-            responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: true,
+        <script>
+            $(".slider").slick({
+                dots: true,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                arrows: true,
+                responsive: [{
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true,
+                        },
                     },
-                },
-                {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2,
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
+                        },
                     },
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        },
                     },
-                },
-                // You can unslick at a given breakpoint now by adding:
-                // settings: "unslick"
-                // instead of a settings object
-            ],
-        });
-    </script>
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ],
+            });
+        </script>
 
-    <script>
-        function openAmenities(evt, amenityName) {
-            var i, tabcontent, tablinks;
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
+        <script>
+            function openAmenities(evt, amenityName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(amenityName).style.display = "block";
+                evt.currentTarget.className += " active";
             }
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-            document.getElementById(amenityName).style.display = "block";
-            evt.currentTarget.className += " active";
-        }
-    </script>
+        </script>
 </body>
 
 </html>

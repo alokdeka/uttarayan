@@ -94,12 +94,16 @@ body {
     background: rgb(1, 1, 1, 0.3);
 }
 
-.enquiry_form_div h1{
+.enquiry_form_heading{
+    color: #111;
+}
+
+.enquiry_form_div{
     color: #fff;
 }
 
 .enquiry_form_div button {
-    height: 50px;
+    height: 40px;
     border-radius: 0;
     background: #2591CF;
 }
@@ -307,7 +311,7 @@ body {
         background: #fff;
     }
     
-    .enquiry_form_div h1{
+    .enquiry_form_div{
         color: #111;
     }
 
@@ -342,7 +346,7 @@ body {
         background: #fff;
     } 
 
-    .enquiry_form_div h1{
+    .enquiry_form_div{
         color: #111;
     }
 
@@ -362,7 +366,7 @@ body {
         background: #fff;
     }
         
-    .enquiry_form_div h1{
+    .enquiry_form_div{
         color: #111;
     }
 
@@ -394,7 +398,7 @@ body {
         background: #fff;
     }
         
-    .enquiry_form_div h1{
+    .enquiry_form_div{
         color: #111;
     }
 
