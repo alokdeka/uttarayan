@@ -245,6 +245,12 @@ body {
     border: none;
 }
 
+/* Contact modal */
+#contactModal .btn{
+    background: #2591CF;
+    color: #fff;
+}
+
 /* Floating divs Enquire now and call now */
 .floating-div{
     position: fixed;
