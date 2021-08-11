@@ -30,14 +30,25 @@ body {
 }
 
 .carousel-caption {
-    bottom: 14rem;
+    bottom: 2rem;
+    background: rgba(1, 1, 1, 0.5);
+    left: 0;
+    right: 0;
 }
 
 .header{
     position: absolute;
     width: 90%;
-    top: 20px;
+    top: 0;
     z-index: 99999;
+}
+
+.header .header-logo-1{
+    margin-left: 60px;
+}
+
+.header .header-logo-2{
+    margin-top: 50px;
 }
 
 .rera_img_div img {
@@ -94,6 +105,10 @@ body {
     background: rgb(1, 1, 1, 0.6);
 }
 
+.enquiry_form_div #heading1{
+    border: 0.4rem solid rgba(255, 255, 255, 0.5);
+}
+
 .enquiry_form_heading{
     color: #111;
 }
@@ -103,7 +118,7 @@ body {
 }
 
 .enquiry_form_div button {
-    height: 40px;
+    height: 35px;
     border-radius: 0;
     background: #2591CF;
 }
@@ -294,6 +309,10 @@ body {
     z-index: -11111;
 }
 
+/* UNiversal classes */
+.pl-100{
+    padding-left: 100px;
+}
 
 
 /* 
@@ -335,6 +354,18 @@ body {
     .footer_div{
         margin-bottom: 70px;
     }
+    
+    .header .header-logo-1{
+        margin-left: unset;
+    }
+
+    .pl-100{
+        padding-left: unset;
+    }
+
+    .d-only-lg{
+        display: none !important;
+    }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -353,6 +384,18 @@ body {
 
     .footer_div{
         margin-bottom: 70px;
+    }
+        
+    .header .header-logo-1{
+        margin-left: unset;
+    }
+
+    .pl-100{
+        padding-left: unset;
+    }
+
+    .d-only-lg{
+        display: none !important;
     }
 }
 
@@ -386,6 +429,18 @@ body {
     .footer_div{
         margin-bottom: 70px;
     }
+        
+    .header .header-logo-1{
+        margin-left: unset;
+    }
+
+    .pl-100{
+        padding-left: unset;
+    }
+
+    .d-only-lg{
+        display: none !important;
+    }
 }
 
 /* // Large devices (desktops, less than 1200px) */
@@ -413,6 +468,18 @@ body {
 
     .footer_div{
         margin-bottom: 70px;
+    }
+        
+    .header .header-logo-1{
+        margin-left: unset;
+    }
+
+    .pl-100{
+        padding-left: unset;
+    }
+
+    .d-only-lg{
+        display: none !important;
     }
 }
 
