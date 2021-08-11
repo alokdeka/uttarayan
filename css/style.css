@@ -90,6 +90,10 @@ body {
     color: #fff;
 } */
 
+.enquiry_form_div{
+    background: rgb(1, 1, 1, 0.3);
+}
+
 .enquiry_form_div h1{
     color: #fff;
 }
@@ -274,7 +278,6 @@ body {
 /* Footer */
 .footer_div{
     position: relative;
-    margin-bottom: 70px;
 }
 
 .footer_div img{
@@ -301,11 +304,12 @@ body {
         position: unset;
         top: 0;
         height: auto;
+        background: #fff;
     }
     
-.enquiry_form_div h1{
-    color: #111;
-}
+    .enquiry_form_div h1{
+        color: #111;
+    }
 
     .rera_img_div img {
         width: 50px;
@@ -322,6 +326,10 @@ body {
     .floating-div{
         display: unset;
     }
+
+    .footer_div{
+        margin-bottom: 70px;
+    }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -331,10 +339,15 @@ body {
         position: unset;
         top: 0;
         height: auto;
+        background: #fff;
     } 
 
     .enquiry_form_div h1{
         color: #111;
+    }
+
+    .footer_div{
+        margin-bottom: 70px;
     }
 }
 
@@ -346,6 +359,7 @@ body {
         top: 0;
         width: 100%;
         height: auto;
+        background: #fff;
     }
         
     .enquiry_form_div h1{
@@ -363,6 +377,10 @@ body {
     .hompage_slider .carousel-item img {
         object-fit: cover;
     }
+
+    .footer_div{
+        margin-bottom: 70px;
+    }
 }
 
 /* // Large devices (desktops, less than 1200px) */
@@ -373,6 +391,7 @@ body {
         top: 0;
         width: 100%;
         height: auto;
+        background: #fff;
     }
         
     .enquiry_form_div h1{
@@ -385,6 +404,10 @@ body {
 
     .hompage_slider .carousel-item img {
         object-fit: cover;
+    }
+
+    .footer_div{
+        margin-bottom: 70px;
     }
 }
 
