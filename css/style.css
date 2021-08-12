@@ -51,6 +51,10 @@ body {
 .header .header-logo-2{
     margin-top: 50px;
 }
+    
+.header .header-logo-1 img{
+    margin-left: 50px;
+}
 
 .rera_img_div img {
     position: fixed;
@@ -238,6 +242,10 @@ body {
 }
 
 /* Latest project */
+.latest_projects #contact_us{
+    background: #2591CF;
+}
+
 .latest_projects_block{
     position: relative;
 }
@@ -349,6 +357,7 @@ body {
     
     .hompage_slider .carousel-item img {
         object-fit: cover;
+        height: 70vh;
     }
 
     .floating-div{
@@ -358,9 +367,28 @@ body {
     .footer_div{
         margin-bottom: 70px;
     }
+
     
+    .header{
+        width: 100%;
+    }
+        
     .header .header-logo-1{
         margin-left: unset;
+    }
+    
+    .header .header-logo-1 img{
+        width: 100px;
+        margin-left: 10px;
+    }
+
+    .header .header-logo-2 img{
+        width: 60px;
+        padding-right: 10px;
+    }
+
+    .header .header-logo-2{
+        margin-top: 30px;
     }
 
     .pl-100{
