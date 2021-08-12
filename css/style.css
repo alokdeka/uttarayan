@@ -111,8 +111,8 @@ body {
 }
 
 .enquiry_form_div #heading1{
-    border: 0.4rem solid rgba(255, 255, 255, 0.8);
-    border-radius: 12px;
+    border: 4px solid rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
     letter-spacing: 2px;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -383,12 +383,12 @@ body {
     }
 
     .header .header-logo-2 img{
-        width: 60px;
+        width: 80px;
         padding-right: 10px;
     }
 
     .header .header-logo-2{
-        margin-top: 170px;
+        margin-top: 150px;
     }
 
     .pl-100{
