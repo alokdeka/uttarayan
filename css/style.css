@@ -8,6 +8,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -106,7 +107,10 @@ body {
 }
 
 .enquiry_form_div #heading1{
-    border: 0.4rem solid rgba(255, 255, 255, 0.5);
+    border: 0.4rem solid rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    letter-spacing: 2px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .enquiry_form_heading{
